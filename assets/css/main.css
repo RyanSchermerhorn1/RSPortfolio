@@ -1663,9 +1663,8 @@ input, select, textarea {
 		}
 
 		nav ul li a {
-  			display: flex;
-  			justify-content: center;
-  			align-items: center;
-  			text-align: center;
+  			display: flex !important;
+  			justify-content: center !important;
+  			align-items: center !important;
+ 		 	text-align: center !important;
 		}
-
