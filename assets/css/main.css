@@ -1668,3 +1668,10 @@ input, select, textarea {
   			align-items: center !important;
  		 	text-align: center !important;
 		}
+		.center-text {
+  			display: flex !important;
+  			justify-content: center !important;
+  			align-items: center !important;
+  			text-align: center !important;
+		}
+
