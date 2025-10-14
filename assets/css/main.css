@@ -1007,6 +1007,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
+		align-items: center;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1017,12 +1018,13 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 1px #ffffff;
 		color: #ffffff !important;
 		cursor: pointer;
-		display: inline-block;
+		display: flex;
 		font-size: 0.8rem;
 		font-weight: 300;
 		height: 2.75rem;
+		justify-content: center;
 		letter-spacing: 0.2rem;
-		line-height: 2.75rem;
+		line-height: normal;
 		outline: 0;
 		padding: 0 1.25rem 0 1.35rem;
 		text-align: center;
@@ -1666,3 +1668,4 @@ input, select, textarea {
   			align-items: center;
   			text-align: center;
 		}
+
