@@ -1663,15 +1663,10 @@ input, select, textarea {
 		}
 
 		nav ul li a {
-  			display: flex !important;
-  			justify-content: center !important;
-  			align-items: center !important;
- 		 	text-align: center !important;
+  			display: flex;
+ 			justify-content: center;
+  			align-items: center;
+  			text-align: center;
+  			line-height: 1.2em;
+  			height: 100%;
 		}
-		.center-text {
-  			display: flex !important;
-  			justify-content: center !important;
-  			align-items: center !important;
-  			text-align: center !important;
-		}
-
